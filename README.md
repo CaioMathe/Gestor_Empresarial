@@ -4,6 +4,7 @@
 Projeto De gestão de empresas, criada com: Vue.js, Django, SqlLite3, Html, Css, Ajax, Javascript, jQuery e Python.
 
 Para iniciar o sistema necessario:
+
 1 - Criar uma virtual env, para instalação das biblioteccas e frameworks necessarios. Baixar: https://www.anaconda.com/products/distribution (anaconda prompt, já vem com uma virtual env global facil de usar.)
 
 2 - instalar tudo que há dentro de requiments.txt com a linha de comando: 'pip install -r requirequiments.txt'.
