@@ -1,0 +1,45 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="https://www.djangoproject.com/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="{% static '../static/css/base.css' %}">
+  
+
+          <!-- Font-awesome -->
+      <link href="{% static 'fontawesomepro/css/all.min.css' %}" rel="stylesheet" type="text/css">
+      <script src="{% static 'fontawesomefree/js/all.min.js' %}"></script>
+
+
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <title>Gestão</title>
+
+
+  </head>
+  <body>
+
+    <div class="container">
+      <nav>
+
+            <a class="links" href="/"><i class="fa-solid fa-user-tie"></i></a>
+            
+
+      </nav>
+      <div id="Conteudo">
+        {% block content %}{% endblock content %}
+      </div>
+    </div>
+
+
+    <!-- VueJS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+        <!-- jQuery -->
+
+
+  </body>
+</html>
