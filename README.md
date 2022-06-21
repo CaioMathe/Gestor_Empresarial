@@ -9,6 +9,8 @@ Para iniciar o sistema necessario:
 
 2 - instalar tudo que há dentro de requiments.txt com a linha de comando: 'pip install -r requiments.txt'.
 
+3 - Após instalação de tudo, rodar o comando 'python manage.py runserver', ele iniciara o servidor local.
+
 Com isso o projeto já está pronto para uso.
 
 Projeto consiste Na gravação de dados em 2 tabelas no SqlLite3 separadas que se ligam por um id em especifico, fazendo com que dados estejam sempre ligados entre si. Foi criada e consumida várias Api's, com Django além do path para a renderização da página,  Api consumida com Ajax e fecth, sendo usadas no front-end com Vue.js criando assim interação com componentes.
